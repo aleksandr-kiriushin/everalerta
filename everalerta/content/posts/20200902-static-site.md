@@ -85,7 +85,7 @@ server {
 
 10. Copy Hugo static site to server:
 {{< cmd >}}
-cp -r -i ~/.ssh/scaleway/id_rsa public root@<IP>:/everalerta/
+scp -r -i ~/.ssh/scaleway/id_rsa public root@<IP>:/everalerta/
 {{< /cmd >}}
 11. Set server's IP into Cloudflare's DNS A-record
 12. Setup HTTP to HTTPS redirect in Cloudflare settings

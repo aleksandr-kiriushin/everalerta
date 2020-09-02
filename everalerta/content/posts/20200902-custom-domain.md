@@ -23,4 +23,4 @@ tags: ["cloudflare", "email", "protonmail"]
 ![Cloudflare DNS settings](/20200902_dns.png)
 6. Add some email adresses:
 ![Protonmail custom emails](/20200902_emails.png)
-7. Now you can use Protonmail to send and receive email using your email
+7. Now you can use Protonmail to send and receive emails using your email
