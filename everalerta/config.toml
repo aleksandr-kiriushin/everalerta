@@ -1,6 +1,6 @@
 baseURL = "https://everalerta.com/"
 languageCode = "en-us"
-title = "EverAlerta"
+title = "Ever Alerta"
 theme = "cupper"
 defaultContentLanguage = "en"
 
