@@ -1,0 +1,36 @@
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header header"
+      "sidebar main"
+      "footer footer";
+  }
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    padding-right: 40px;
+}
+
+main {
+    grid-area: main;
+    padding-left: 40px;
+}
+
+.footer {
+    grid-area: footer;
+    position: relative;
+    background-color: grey;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}

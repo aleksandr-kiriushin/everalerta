@@ -1,0 +1,11 @@
+<div class="sidebar">
+  <nav>
+      <ul>
+          {{ range .Site.Menus.navigation }}
+          <li>
+              <a href="{{ absURL .URL }}">{{ .Title }}</a>
+          </li>
+          {{ end }}
+      </ul>
+  </nav>
+</div>

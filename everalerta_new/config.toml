@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "alerta"
+title = "Alerta"
+sectionPagesMenu = "navigation"
+
+[params]
+    description = "Ever Alerta website"
+
+
+[markup.goldmark.renderer]
+    unsafe= true

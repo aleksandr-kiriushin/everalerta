@@ -1,0 +1,13 @@
+name = "alerta"
+license = "MIT"
+description = "Alerta hugo theme"
+homepage = "https://everalerta.com/"
+tags = []
+features = []
+min_version = "0.41.0"
+MetaDataFormat = "toml"
+languageCode = "en-us"
+
+[author]
+  name = "Aleksandr Kiriushin"
+  homepage = "https://everalerta.com"
