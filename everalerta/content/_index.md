@@ -11,4 +11,5 @@ Thank you for visiting and stay tuned!
 
 [Blog]({{< relref "/posts/" >}} "Blog")<br>
 [LinkedIn](https://www.linkedin.com/in/ak-everalerta/)<br>
+[Github](https://github.com/aleksandr-kiriushin)<br>
 [Instagram](https://www.instagram.com/everalerta/)

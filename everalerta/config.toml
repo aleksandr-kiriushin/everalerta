@@ -36,6 +36,11 @@ search = true
   url = "/tags/"
   weight = 3.0
 
+  [[menu.nav]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 4.0
+
 [markup]
 defaultMarkdownHandler = "goldmark"
 
