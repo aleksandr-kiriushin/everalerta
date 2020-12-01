@@ -22,3 +22,6 @@ local.txt
 
 # commit config
 .gitconfig
+
+# generated resources
+*/resources/
