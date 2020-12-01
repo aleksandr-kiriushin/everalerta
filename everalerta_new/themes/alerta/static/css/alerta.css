@@ -11,11 +11,15 @@
 
 .header {
     grid-area: header;
+    border-bottom: black;
+    border-bottom-style: double;
 }
 
 .sidebar {
     grid-area: sidebar;
     padding-right: 40px;
+    border-right: black;
+    border-right-style: double;
 }
 
 main {
@@ -26,7 +30,8 @@ main {
 .footer {
     grid-area: footer;
     position: relative;
-    background-color: grey;
+    border-top: black;
+    border-top-style: double;
 }
 
 body {
