@@ -1,79 +1,12 @@
-baseURL = "https://everalerta.com/"
+baseURL = "https://everalerta.com"
 languageCode = "en-us"
+theme = "alerta"
 title = "Ever Alerta"
-theme = "cupper"
-defaultContentLanguage = "en"
-
-[taxonomies]
-tag = "tags"
-
-[permalinks]
-post = "/:filename/"
-
-[imaging]
-quality = 99.0
+sectionPagesMenu = "navigation"
 
 [params]
-katex = true
-darkThemeAsDefault = false
-hideHeaderLinks = false
-search = true
+    description = "Ever Alerta"
 
-[menu]
 
-  [[menu.nav]]
-  name = "Home"
-  url = "/"
-  weight = 1.0
-
-  [[menu.nav]]
-  name = "Blog"
-  url = "/posts/"
-  weight = 2.0
-
-  [[menu.nav]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 3.0
-
-  [[menu.nav]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 4.0
-
-[markup]
-defaultMarkdownHandler = "goldmark"
-
-  [markup.goldmark]
-
-    [markup.goldmark.extensions]
-    definitionList = true
-    footnote = true
-    linkify = true
-    strikethrough = true
-    table = true
-    taskList = true
-    typographer = true
-
-    [markup.goldmark.parser]
-    attribute = true
-    autoHeadingID = true
-
-    [markup.goldmark.renderer]
-    hardWraps = false
-    unsafe = true
-    xHTML = false
-
-  [markup.highlight]
-  codeFences = false
-  hl_Lines = ""
-  lineNoStart = 1.0
-  lineNos = false
-  lineNumbersInTable = true
-  noClasses = true
-  style = "monokai"
-  tabWidth = 4.0
-
-  [markup.tableOfContents]
-  endLevel = 6.0
-  startLevel = 2.0
+[markup.goldmark.renderer]
+    unsafe= true

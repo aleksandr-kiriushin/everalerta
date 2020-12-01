@@ -16,3 +16,12 @@
 
 # Directory for static files
 public/
+
+# local notes
+local.txt
+
+# commit config
+.gitconfig
+
+# generated resources
+*/resources/
