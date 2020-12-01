@@ -16,3 +16,6 @@
 
 # Directory for static files
 public/
+
+# local notes
+local.txt
