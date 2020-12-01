@@ -1,11 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://everalerta.com"
 languageCode = "en-us"
 theme = "alerta"
-title = "Alerta"
+title = "Ever Alerta"
 sectionPagesMenu = "navigation"
 
 [params]
-    description = "Ever Alerta website"
+    description = "Ever Alerta"
 
 
 [markup.goldmark.renderer]
