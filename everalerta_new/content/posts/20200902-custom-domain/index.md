@@ -18,9 +18,9 @@ tags: ["cloudflare", "email", "protonmail"]
 2. Buy paid subscription (about 5$)
 3. Setup custom domain for Protonmail
 4. Go to Protonmail setup custom domain wizard:
-![Protonmail custom domain wizard](/20200902_wizard.png)
+{{< img "wizard.png" "Protonmail custom domain wizard" >}}
 5. Go to Cloudflare and create DNS records:
-![Cloudflare DNS settings](/20200902_dns.png)
+{{< img "dns.png" "Cloudflare DNS settings" >}}
 6. Add some email adresses:
-![Protonmail custom emails](/20200902_emails.png)
+{{< img "emails.png" "Protonmail custom emails" >}}
 7. Now you can use Protonmail to send and receive emails using your email

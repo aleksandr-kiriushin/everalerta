@@ -32,7 +32,7 @@ hugo -D
 ssh-keygen -t rsa -b 4096 -C "aleksandr.kiriushin@everalerta.com"
 {{< /cmd >}}
 2. Buy a smallest DEV VPS server (about 5$) with Ubuntu
-![Scaleway](/20200902_scaleway.png)
+{{< img "scaleway.png" "Scaleway" >}}
 3. Note the server's IP
 4. Ssh to server, set server's IP into the next command:
 {{< cmd >}}

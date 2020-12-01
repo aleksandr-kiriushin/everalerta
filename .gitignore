@@ -19,3 +19,6 @@ public/
 
 # local notes
 local.txt
+
+# commit config
+.gitconfig
