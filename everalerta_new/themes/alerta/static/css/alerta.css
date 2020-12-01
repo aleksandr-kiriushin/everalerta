@@ -27,11 +27,20 @@ main {
     padding-left: 40px;
 }
 
+.title {
+    text-decoration: underline;
+}
+
+.article-list-element {
+    margin-block: 0em;
+}
+
 .footer {
     grid-area: footer;
     position: relative;
     border-top: black;
     border-top-style: double;
+    text-align: center;
 }
 
 body {
